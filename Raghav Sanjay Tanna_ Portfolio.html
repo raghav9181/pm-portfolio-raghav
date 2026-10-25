@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raghav Sanjay Tanna: Business & Product Analyst</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+:root{--bg:#F5F6F8;--surface:#FFFFFF;--ink:#0F1B2D;--muted:#586377;--line:#D9DEE7;--accent:#1D4ED8;--accent-ink:#FFFFFF;--mark:#E3EBFF;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1220;--surface:#141C2E;--ink:#E7ECF5;--muted:#9AA6BC;--line:#26324A;--accent:#7FA2FF;--accent-ink:#0C1220;--mark:#1D2A4A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1220;--surface:#141C2E;--ink:#E7ECF5;--muted:#9AA6BC;--line:#26324A;--accent:#7FA2FF;--accent-ink:#0C1220;--mark:#1D2A4A;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:400 16px/1.6 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;margin:0;line-height:1.1;letter-spacing:-.02em}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap}
+.brand{font:700 18px "Bricolage Grotesque",Arial,sans-serif}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav button{background:none;border:1px solid transparent;color:var(--muted);font:500 14px "IBM Plex Sans",sans-serif;padding:7px 12px;border-radius:999px;cursor:pointer}
+nav button:hover{color:var(--ink);border-color:var(--line)}
+.hero{padding:56px 0 48px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2.4rem,6.4vw,4.6rem);font-weight:700;max-width:16ch}
+.hero p.lede{font-size:1.15rem;max-width:58ch;color:var(--muted);margin:22px 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;font-weight:500;text-decoration:none;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:34px 0 0;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
+.facts b{color:var(--ink);font-weight:500}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+section>h2{font-size:clamp(1.6rem,3.4vw,2.2rem);margin-bottom:28px}
+.case{display:grid;grid-template-columns:230px 1fr;gap:12px 40px;padding:28px 0;border-top:1px solid var(--line)}
+.case:first-of-type{border-top:0;padding-top:0}
+.meta{font-size:.9rem;color:var(--muted)}
+.meta dt{font-weight:500;color:var(--ink);margin-top:12px}
+.meta dt:first-child{margin-top:0}
+.meta dd{margin:2px 0 0}
+.case h3{font-size:1.45rem;margin-bottom:12px}
+.case p{margin:0 0 12px;max-width:62ch}
+.case p strong{font-weight:500}
+.result{background:var(--mark);border-left:4px solid var(--accent);padding:12px 16px;border-radius:0 8px 8px 0;max-width:62ch}
+.job{display:grid;grid-template-columns:230px 1fr;gap:6px 40px;padding:22px 0;border-top:1px solid var(--line)}
+.job:first-of-type{border-top:0;padding-top:0}
+.job .when{color:var(--muted);font-size:.9rem}
+.job h3{font-size:1.15rem;margin-bottom:8px}
+ul.tight{margin:0;padding-left:18px;max-width:64ch}
+ul.tight li{margin:0 0 6px}
+.fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:28px}
+.fit h3{font-size:1.1rem;margin-bottom:8px}
+.fit p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none}
+.tags li{border:1px solid var(--line);background:var(--surface);padding:3px 10px;border-radius:999px;font-size:.85rem}
+.contact{padding:56px 0 72px}
+.contact h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:14px}
+.contact p{max-width:52ch;color:var(--muted);margin:0 0 24px}
+.hero>*{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.hero>*:nth-child(2){animation-delay:.08s}.hero>*:nth-child(3){animation-delay:.16s}.hero>*:nth-child(4){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.hero>*{animation:none}}
+@media (max-width:720px){.case,.job{grid-template-columns:1fr}.hero{padding-top:32px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="brand">Raghav Sanjay Tanna</div>
+  <nav aria-label="Sections">
+    <button data-go="work">Case studies</button>
+    <button data-go="exp">Experience</button>
+    <button data-go="skills">Skills</button>
+    <button data-go="contact">Contact</button>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>I turn user data into product decisions.</h1>
+  <p class="lede">Business and product analyst with two years across platform analytics, client operations and freelance consulting. I find where users drop off, work out why, and write it up so engineering, design and operations can act on it.</p>
+  <div class="cta">
+    <a class="btn primary" href="mailto:trsanjay02@gmail.com">Email me</a>
+    <button class="btn ghost" style="background:none;font:inherit;font-weight:500;cursor:pointer" data-go="work">Read the case studies</button>
+  </div>
+  <ul class="facts">
+    <li><b>+25%</b> transactions and engagement on an MVP launch</li>
+    <li><b>SQL, Python, Power BI, GA4</b></li>
+    <li><b>Hyderabad, India</b></li>
+  </ul>
+</div>
+
+<section id="work">
+  <h2>Case studies</h2>
+
+  <article class="case">
+    <dl class="meta">
+      <dt>Role</dt><dd>Performance tracking and issue triage</dd>
+      <dt>Team</dt><dd>6 people</dd>
+      <dt>Tools</dt><dd>Google Analytics, A/B testing, Trello, Agile</dd>
+    </dl>
+    <div>
+      <h3>Platform MVP launch</h3>
+      <p><strong>Problem.</strong> A new platform had just launched with a small team and limited capacity. We needed to see where users struggled and decide which fixes to do first.</p>
+      <p><strong>What I did.</strong> Tracked user behavior in Google Analytics, triaged issues in a shared Trello backlog, ranked fixes by how many users each one affected, and A/B tested the changes in short cycles.</p>
+      <p class="result"><strong>Result.</strong> Transactions and engagement rose 25%.</p>
+    </div>
+  </article>
+
+  <article class="case">
+    <dl class="meta">
+      <dt>Role</dt><dd>Data pipeline, dashboards and forecasting</dd>
+      <dt>Type</dt><dd>Practice project on a mock distribution network</dd>
+      <dt>Tools</dt><dd>Python, SQL, Excel, Power BI</dd>
+    </dl>
+    <div>
+      <h3>Logistics and operations dashboards</h3>
+      <p><strong>Problem.</strong> Raw system logs were messy, and nobody could see cost and time per shipment in one place.</p>
+      <p><strong>What I did.</strong> Built a Python and SQL pipeline that cleaned the logs, ran data-quality checks and calculated cost and time metrics. Built Power BI KPI dashboards, then ran volume forecasting and variance testing.</p>
+      <p class="result"><strong>Result.</strong> Simulated execution costs fell 18%.</p>
+    </div>
+  </article>
+
+  <article class="case">
+    <dl class="meta">
+      <dt>Role</dt><dd>Measurement setup</dd>
+      <dt>Type</dt><dd>Personal practice project on a test site</dd>
+      <dt>Tools</dt><dd>GA4, Google Tag Manager, Google Ads</dd>
+    </dl>
+    <div>
+      <h3>GA4 and GTM tracking setup</h3>
+      <p><strong>Problem.</strong> Good product decisions need clean event data, and I wanted to own that setup end to end.</p>
+      <p><strong>What I did.</strong> Configured a GA4 property and a Google Tag Manager container, with custom event tags, triggers and variables.</p>
+      <p class="result"><strong>Result.</strong> A working GA4 and GTM setup on a test site.</p>
+    </div>
+  </article>
+</section>
+
+<section id="fit">
+  <h2>Where I fit</h2>
+  <div class="fit">
+    <div><h3>Business analyst</h3><p>Root-cause analysis, process improvement, BRD documentation and executive-ready reporting.</p>
+      <ul class="tags"><li>SQL</li><li>Excel</li><li>BRD</li><li>Root cause</li></ul></div>
+    <div><h3>Product analyst</h3><p>Funnels, drop-off analysis, A/B tests and KPI dashboards that show what to fix next.</p>
+      <ul class="tags"><li>GA4</li><li>A/B testing</li><li>Power BI</li><li>Funnels</li></ul></div>
+    <div><h3>Associate product manager</h3><p>Prioritizing issues, writing requirements, and coordinating design and engineering to follow up.</p>
+      <ul class="tags"><li>PRD</li><li>Prioritization</li><li>Agile</li><li>Trello</li></ul></div>
+  </div>
+</section>
+
+<section id="exp">
+  <h2>Experience</h2>
+  <div class="job"><div class="when">Dec 2025 to now</div><div><h3>Process Executive, Cognizant</h3>
+    <ul class="tight"><li>Build daily, weekly and monthly KPI scorecards tracking volumes and cycle times against SLA commitments.</li><li>Run data-error and performance checks so inaccuracies are caught before client-facing reports.</li><li>Triage client tickets and escalate unresolved cases with clear context.</li></ul></div></div>
+  <div class="job"><div class="when">May 2025 to now</div><div><h3>Business analyst (freelance), TUK TOOK</h3>
+    <ul class="tight"><li>Analyze operational data in SQL to find recurring process issues, with root-cause analysis and trend forecasting.</li><li>Turn findings into recommendations and automated reporting models, presented in Excel and PowerPoint.</li></ul></div></div>
+  <div class="job"><div class="when">Jan 2025 to Dec 2025</div><div><h3>Product analyst, Skill High</h3>
+    <ul class="tight"><li>Monitored platform dashboards to find user drop-off points, bottlenecks and tracking errors, and escalated them to engineering.</li><li>Coordinated engineering, design and operations to prioritize and resolve issues.</li><li>Documented processes and onboarded new team members.</li></ul></div></div>
+  <div class="job"><div class="when">Jun 2024 to Jan 2025</div><div><h3>Process associate, Genpact</h3>
+    <ul class="tight"><li>Handled client queries within SLA and escalated complex cases to Tier 2/3.</li><li>Ran data-accuracy checks and maintained operational reports. Won a Cheer Point Award (Q3).</li></ul></div></div>
+</section>
+
+<section id="skills">
+  <h2>Skills and credentials</h2>
+  <div class="fit">
+    <div><h3>Analytics</h3><ul class="tags"><li>SQL</li><li>Python</li><li>Pandas</li><li>Power BI</li><li>Tableau</li><li>Advanced Excel</li><li>GA4</li><li>Google Tag Manager</li></ul></div>
+    <div><h3>Business and product</h3><ul class="tags"><li>Root-cause analysis</li><li>KPI tracking</li><li>A/B testing</li><li>BRD and PRD writing</li><li>Process mapping</li><li>Agile</li></ul></div>
+    <div><h3>Credentials</h3><ul class="tight"><li>B.Tech., Computer Science (AI and ML), 2024</li><li>Google Data Analytics Certificate</li><li>Google Ads Search, GA4, Tag Manager</li><li>IELTS Band 7</li></ul></div>
+  </div>
+</section>
+
+<div class="contact" id="contact">
+  <h2>Let’s talk about the role.</h2>
+  <p>I am happy to walk through any case study, or the numbers behind it, in an interview.</p>
+  <a class="btn primary" href="mailto:trsanjay02@gmail.com">trsanjay02@gmail.com</a>
+</div>
+</div>
+<script>
+document.querySelectorAll('[data-go]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var el=document.getElementById(b.getAttribute('data-go'));
+    if(el){el.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
+  });
+});
+</script>
+</body>
+</html>
